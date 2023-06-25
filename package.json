@@ -21,7 +21,7 @@
     "develop": "next dev",
     "build": "next build",
     "start": "next start",
-    "test": "jest --watch",
+    "test": "jest .",
     "lint": "npm-run-all lint:*",
     "lint:code": "eslint . --cache",
     "lint:pretty": "prettier --ignore-path .gitignore --check  .",
